@@ -26,7 +26,7 @@
   <project name="meta-arm" path="layers/meta-arm" remote="yocto" revision="60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a" upstream="scarthgap"/>
   <project name="meta-ti" path="layers/meta-ti" remote="yocto" revision="336a538aee707a3518e6f05df1e8acdbbbd58671" upstream="scarthgap"/>
 
-  <project name="meta-security" path="layers/meta-security" remote="yocto" upstream="scarthgap"/>
+  <!-- <project name="meta-security" path="layers/meta-security" remote="yocto" upstream="scarthgap"/> -->
   <project name="meta-flutter" path="layers/meta-flutter" remote="flutter" upstream="scarthgap"/>
   <project name="meta-clang" path="layers/meta-clang" remote="clang" upstream="scarthgap"/>
   <project name="meta-dimos" path="layers/meta-dimos" remote="dimos" upstream="toradex"/>
