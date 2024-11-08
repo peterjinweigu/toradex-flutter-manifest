@@ -27,9 +27,9 @@
   <project name="meta-ti" path="layers/meta-ti" remote="yocto" revision="336a538aee707a3518e6f05df1e8acdbbbd58671" upstream="scarthgap"/>
 
   <!-- <project name="meta-security" path="layers/meta-security" remote="yocto" upstream="scarthgap"/> -->
-  <project name="meta-flutter" path="layers/meta-flutter" remote="flutter" upstream="scarthgap"/>
-  <project name="meta-clang" path="layers/meta-clang" remote="clang" upstream="scarthgap"/>
-  <project name="meta-dimos" path="layers/meta-dimos" remote="dimos" upstream="toradex"/>
+  <project name="meta-flutter" path="layers/meta-flutter" remote="flutter" revision="main" upstream="scarthgap"/>
+  <project name="meta-clang" path="layers/meta-clang" remote="clang" revision="main" upstream="scarthgap"/>
+  <project name="meta-dimos" path="layers/meta-dimos" remote="dimos" revision="main" upstream="toradex"/>
   
 
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="b583759d5fc023d36807d92771ea9dbf84517b3c" upstream="scarthgap-7.x.y">
