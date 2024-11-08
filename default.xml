@@ -32,7 +32,7 @@
   <project name="meta-dimos" path="layers/meta-dimos" remote="dimos" revision="main" upstream="toradex"/>
   
 
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="b583759d5fc023d36807d92771ea9dbf84517b3c" upstream="scarthgap-7.x.y">
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="1f05dd5326416ffd9a4776e283c2816b0bd67385" upstream="scarthgap-7.x.y">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 </manifest>
