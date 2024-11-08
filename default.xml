@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote alias="repo" fetch="https://github.com/openembedded" name="oe"/>
+  <remote alias="repo" fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote alias="repo" fetch="https://github.com/meta-flutter" name="flutter"/>
+  <remote alias="repo" fetch="https://github.com/kraj" name="clang"/>
+  <remote alias="repo" fetch="https://github.com/UBCFormulaElectric" name="dimos"/>
+  <remote alias="repo" fetch="https://github.com/Freescale" name="githf"/>
+  <remote alias="repo" fetch="https://git.toradex.com" name="tdx"/>
+
+  <default sync-j="4"/>
+
+  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="377eba2361850adfb8ce7e761ef9c76be287f88c" upstream="2.8"/>
+  <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="2e3126c9c16bb3df0560f6b3896d01539a3bfad7" upstream="scarthgap"/>
+  <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" revision="9b6836117e35258aac4f7b1e7c7d10a420fe9370" upstream="scarthgap"/>
+  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="bcd4e6d77dc7455a453e69b6d37769ec94cc02ad" upstream="scarthgap"/>
+
+  <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="6c063450d464eb2f380443c7d9af1b94ce9b9d75" upstream="scarthgap"/>
+  <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf" revision="b9d6a5d9931922558046d230c1f5f4ef6ee72345" upstream="scarthgap"/>
+  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="585b40d35db75ebe93482c8951ef0827435f7b6f" upstream="scarthgap"/>
+
+  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="2bfd489ef227fb819dd8be6a1a67f63beacb7999" upstream="scarthgap-7.x.y"/>
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="c826f77d92b18778d58335e33b51166b1eff42bb" upstream="scarthgap-7.x.y"/>
+  <project name="meta-toradex-ti.git" path="layers/meta-toradex-ti" remote="tdx" revision="cd7f857e944e1a9479e3e3aee1b4af4bae3d0405" upstream="scarthgap-7.x.y"/>
+
+  <project name="meta-arm" path="layers/meta-arm" remote="yocto" revision="60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a" upstream="scarthgap"/>
+  <project name="meta-ti" path="layers/meta-ti" remote="yocto" revision="336a538aee707a3518e6f05df1e8acdbbbd58671" upstream="scarthgap"/>
+
+  <project name="meta-security" path="layers/meta-security" remote="yocto" upstream="scarthgap"/>
+  <project name="meta-flutter" path="layers/meta-flutter" remote="flutter" upstream="scarthgap"/>
+  <project name="meta-clang" path="layers/meta-clang" remote="clang" upstream="scarthgap"/>
+  <project name="meta-dimos" path="layers/meta-dimos" remote="dimos" upstream="toradex"/>
+  
+
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="b583759d5fc023d36807d92771ea9dbf84517b3c" upstream="scarthgap-7.x.y">
+    <copyfile dest="export" src="buildconf/export"/>
+  </project>
+</manifest>
