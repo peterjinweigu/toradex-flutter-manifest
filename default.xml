@@ -22,7 +22,7 @@
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="2bfd489ef227fb819dd8be6a1a67f63beacb7999" upstream="scarthgap-7.x.y"/>
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="c826f77d92b18778d58335e33b51166b1eff42bb" upstream="scarthgap-7.x.y"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="a901f8f369a51f1abf24ddb0449c40c18eeda690" upstream="scarthgap-7.x.y"/>
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="1f05dd5326416ffd9a4776e283c2816b0bd67385" upstream="scarthgap-7.x.y">
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="1f05dd5326416ffd9a4776e283c2816b0bd67385" upstream="scarthgap-7.x.y"/>
   <project name="meta-toradex-ti.git" path="layers/meta-toradex-ti" remote="tdx" revision="cd7f857e944e1a9479e3e3aee1b4af4bae3d0405" upstream="scarthgap-7.x.y"/>
 
   <project name="meta-arm" path="layers/meta-arm" remote="yocto" revision="60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a" upstream="scarthgap"/>
