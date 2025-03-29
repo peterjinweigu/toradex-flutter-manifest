@@ -29,7 +29,7 @@
   <project name="meta-ti" path="layers/meta-ti" remote="yocto" revision="336a538aee707a3518e6f05df1e8acdbbbd58671" upstream="scarthgap"/>
 
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="bc865c5276c2ab4031229916e8d7c20148dfbac3" upstream="scarthgap"/> 
-  <project name="meta-flutter" path="layers/meta-flutter" remote="flutter" revision="b3ea7e792e546d553916cb3a7e5f05e4572f0602" upstream="scarthgap"/>
+  <project name="meta-flutter" path="layers/meta-flutter" remote="flutter" revision="0efe64d755b0204f83941c046607be9b05b7b3c7" upstream="scarthgap"/>
   <project name="meta-clang" path="layers/meta-clang" remote="clang" revision="9dc2588e34eaf27768d9606d3db2f533f0b9410b" upstream="scarthgap"/>
   <project name="meta-dimos" path="layers/meta-dimos" remote="peter" revision="35ca23b83bfe2fbbe2cf7b749a66be721a4ee238" upstream="main"/>
   
